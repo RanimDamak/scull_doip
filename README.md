@@ -1,5 +1,5 @@
 # scull_doip
-
+```
 use kernel::{
     file::{flags, File, Operations},
     io_buffer::{IoBufferReader, IoBufferWriter},
@@ -150,3 +150,4 @@ impl Module for VDev {
         Ok(Self { _devs: devs })
     }
 }
+```
